@@ -1,0 +1,33 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Angel P. Iglesias Díaz"
+theme = "hugo-classic"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+enableEmoji = true
+footnotereturnlinkcontents = "â†©"
+
+disqusShortname = ""
+
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 1
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+[[menu.feed]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = "Blog de Economía Política."
+    twitter = "Regio_in_Philly"
+    custom_css = ["css/theme-override.css"]
+
+
